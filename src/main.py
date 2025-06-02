@@ -109,7 +109,7 @@ janela.option_add('*Font', 'Arial')
 
 # Icon na tela ---------------------------------------------------
 
-app_icon = PhotoImage(file='assets/icon.png')
+app_icon = PhotoImage(file=icon_path)
 app_label = tk.Label(janela, image = app_icon, bg = background_color)
 app_label.pack(pady = 10)
 
